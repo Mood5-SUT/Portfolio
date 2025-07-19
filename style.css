@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Consolas, "Courier New", monospace;
+    padding: 20px;
+    margin: 0;
+}
+
+#terminal {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.input-line::before {
+    content: "user@portfolio:~$ ";
+    color: #00FF00;
+}
